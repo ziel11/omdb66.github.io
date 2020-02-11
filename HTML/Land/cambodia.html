@@ -1,0 +1,14 @@
+<html><head><meta http-equiv='content-type' content='text/html; charset=utf-8'><link href='../list.css' type='text/css' rel='stylesheet'><script src='../imagehover-p.js'></script><script src='../list.js'></script><script src='../list.pagination.js'></script>
+</head><body><div id='dvd'><h1><a href='../index.html'>Meine Filme</a></h1> <h1>Land Kambodscha</h1><table>
+	<thead><tr><td class='nr'><button class='sort' data-sort='nr'>Nr.</button></td><td><button class='sort' data-sort='titel'>Titel</button> <input class='search' placeholder='Suche'/></td><td class='jahr'><button class='sort' data-sort='jahr'>Jahr</button></td><td class='fsk'><button class='sort' data-sort='fsk'>FSK</button></td><td class='dauer'><button class='sort' data-sort='dauer'>Minuten</button></td><td class='reso'><button class='sort' data-sort='reso'>Aufl&ouml;sung</button></td><td class='imdb'><button class='sort' data-sort='imdb'>IMDB</button></td><td class='meta'><button class='sort' data-sort='meta'>Meta</button></td><td class='genre'><button class='sort' data-sort='genre'>Genre</button></td></tr></thead>
+    <tbody class='list'>
+<tr onmouseover="loading('010302.jpg')" onmouseout="hide('010302.jpg')"><td class="nr" title="X:\FSK18-Eastern\Jailbreak (2017, FSK18, 1920x808).mkv">8376</td><td><a href="../Movies/8376.html"><span class="titel">Jailbreak</span></a></td><td><a href="../Jahr/2017.html"><span class="jahr">2017</span></a></td><td class="fsk"><a href="../FSK/18.html">18</a></td><td><a href="../Zeit/120.html" title="1 &frac12; bis 2 Stunden"><span class="dauer">91</span></a></td><td class="reso" title="3532 MB / 3.45 GB">1080p</td><td><a href="../IMDB/5.html"><span class="imdb" title="751 Bewertungen">5.5 / 10<span></a></td><td><a href="../IMDB/meta-undef.html"><span class="meta">0</span></a></td><td><a href="../Genres/action.html"><span class="genre">Action</span></a></td></tr>
+</tbody></table><ul class='pagination'></ul>
+</div><script>var options = {
+  valueNames: [  'nr', 'titel', 'jahr', 'dauer', 'fsk', 'reso', 'imdb', 'meta', 'genre' ],
+   plugins: [
+      ListPagination({})
+    ]
+};
+var userList = new List('dvd', options);
+</script><img id='imagehover' class='imagehover' src='' alt=''></body></html>

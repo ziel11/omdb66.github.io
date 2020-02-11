@@ -1,0 +1,239 @@
+body , p, h1, .list, a {
+  font-family:sans-serif;
+}
+a { 
+	color: #374A08;
+	
+}
+h1 {
+	font-size: 1.3em;
+	color: #6D940A;
+	padding: 5px 14px;
+}
+td {
+  padding:2px 10px; 
+  border: none 0px #eee;
+}
+tr:nth-child(even) {background: #E4F0C7;}
+tr:nth-child(odd) {background: #FFF;}
+
+p {
+	padding: 0px 5px;
+	margin: 3px 0px 3px 0px;
+}
+
+input {
+  border:solid 1px #ccc;
+  border-radius: 5px;
+  padding:5px 14px;
+  margin-bottom:0px
+}
+input:focus {
+  outline:none;
+  border-color:#aaa;
+}
+.sort {
+  padding: 5px 5px;
+  border-radius: 6px;
+  border:none;
+  display:inline-block;
+  color:#fff;
+  text-decoration: none;
+  background-color: #B7E04C;
+  height:30px;
+}
+.sort:hover {
+  text-decoration: none;
+  background-color:#6D940A;
+}
+.sort:focus {
+  outline:none;
+}
+.sort:after {
+  display:inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content:"";
+  position: relative;
+  top:-10px;
+  right:-5px;
+}
+.sort.asc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content:"";
+  position: relative;
+  top:4px;
+  right:-5px;
+}
+.sort.desc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  content:"";
+  position: relative;
+  top:-4px;
+  right:-5px;
+}
+.pagination li, .pagination li:nth-child(even), .pagination li:nth-child(odd) {
+  display:inline-block;
+  padding:8px 20px !important;
+  background:  #fff !important;
+  width: 1% !important;
+  border-radius: 6px;
+  border:none;
+  color:#fff !important;
+  text-decoration: none;
+  background-color: #B7E04C !important;
+  height: 20px;
+  margin: 10px !important;
+}
+.pagination a {
+ color: #fff;
+}
+
+ul {
+	padding: 0px 0px 0px 5px;
+	margin: 0px 0px 10px 10px;
+}
+li {
+	list-style-type:none;
+	width: 60%;
+	padding: 2px;
+}
+li:nth-child(even) {background: #E4F0C7;}
+li:nth-child(odd) {background: #FFF;}
+
+
+img.ddd {
+	vertical-align: bottom !important;
+}
+img.tv {
+	vertical-align: middle !important;
+}
+
+img.cover {
+	float: left;
+    vertical-align: text-top;
+	padding-right: 20px;
+	  padding:8px 8px;
+	  margin: 0px 10px 0px 0px;
+  border-radius: 6px;
+  border:none;
+  display:inline-block;
+  background-color: #B7E04C;
+}
+
+div.lucky {
+	float: left;
+	padding-right: 20px;
+	padding:8px 8px;
+	margin: 0px 10px 10px 0px;
+  border-radius: 6px;
+  border:none;
+  display:inline-block;
+  background-color: #B7E04C;
+  width: 180px;
+  height: 310px;
+  text-align: center;
+}
+
+
+img.lucky {
+  width: 180px;
+  height: 250px;
+}
+
+img.neu {
+  width: 180px;
+  height: 250px;
+}
+
+div.neu {
+	float: left;
+	padding-right: 20px;
+	padding:8px 8px;
+	margin: 0px 10px 10px 0px;
+  border-radius: 6px;
+  border:none;
+  display:inline-block;
+  background-color: #B7E04C;
+  width: 180px;
+  height: 360px;
+  text-align: left;
+}
+
+div.otitel {
+	display: none;
+	font-style:italic;
+}
+span:hover + div {
+	display: block;
+}
+
+.imagehoveron {
+ position:fixed;
+    overflow:hidden;
+    vertical-align: text-top;
+	padding-right: 20px;
+	  padding:8px 8px;
+  border-radius: 6px;
+  border:none;
+  display:inline-block;
+    width: 180px;
+  height: 250px;
+  background-color: #B7E04C;
+}
+.imagehoveroff {
+	display: none;
+}
+
+img.headshot {
+	float: left;
+    vertical-align: text-top;
+	padding-right: 20px;
+	  padding:8px 8px;
+	  margin: 0px 10px 0px 0px;
+  border-radius: 6px;
+  border:none;
+  display:inline-block;
+  background-color: #B7E04C;
+}
+
+img.headshotmini {
+	vertical-align: text-top;
+	width: 5em;
+	padding-right: 2px;
+	  padding:2px 2px;
+	  margin: 0px 2px 0px 0px;
+  
+  border:none;
+  display:inline-block;
+  background-color: #B7E04C;
+}
+
+span.headshotmini {
+	width: 5.3em;
+}
+
+div.typ  {
+	display: inline-block;
+	background-color: #B7E04C;
+	border:solid 1px #ccc;
+	border-radius: 5px;
+	padding:5px 14px;
+	margin-bottom: 5px;
+	border:none;
+}
+div.typ  a {
+	color: #fff !important;
+	text-decoration: none;
+}
